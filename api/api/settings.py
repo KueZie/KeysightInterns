@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = "django-insecure-q=t-isd628he)tv5jgw9pp_e3_0%_%esa(y$5kh-#_5wiwp#!d"
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True if not os.environ.get('ENABLE_PROD') else False
+DEBUG = True if not os.environ.get("ENABLE_PROD") else False
 
 ALLOWED_HOSTS = []
 
@@ -74,9 +74,7 @@ WSGI_APPLICATION = "api.wsgi.application"
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
-DATABASES = {
-    "default": {}
-}
+DATABASES = {"default": {}}
 
 
 # Password validation
