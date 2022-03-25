@@ -1,0 +1,3 @@
+# ignore virtual env
+api_env/
+*__pycache__/
