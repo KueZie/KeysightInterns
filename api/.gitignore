@@ -1,3 +1,5 @@
 # ignore virtual env
 api_env/
 *__pycache__/
+*.sqlite3
+migrations/
